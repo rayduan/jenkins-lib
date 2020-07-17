@@ -1,0 +1,7 @@
+scan_stage: develop
+common_branch: dev
+ansible_source_url: https://127.0.0.1:8081
+ansible_src: /app/ansible
+apollo_server: https://127.0.0.1:8081
+dev_repository_url: https://127.0.0.1:8081
+pro_repository_url: https://127.0.0.1:8081
