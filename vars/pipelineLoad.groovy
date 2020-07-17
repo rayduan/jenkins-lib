@@ -33,9 +33,6 @@ def call(pipelineType) {
                             case PipelineType.DEPLOY:
                                 deployPipeline(paramMap)
                                 break
-                            case PipelineType.INSTALL:
-                                deployPipeline(paramMap)
-                                break
                         }
                     }
 
