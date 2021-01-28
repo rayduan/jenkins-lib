@@ -3,9 +3,11 @@ import org.cicd.utils.utils
 
 
 def call(pipelineType) {
+    //加载默认配置
     def cfg_text = libraryResource("pipelineCfg.yaml")
     def cfg = readYaml text: cfg_text
     def paramMap = pramasBuild(pipelineType,cfg)
+    //引入公共方法
     def utils = new utils()
     pipeline {
         agent any
